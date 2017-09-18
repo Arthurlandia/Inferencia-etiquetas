@@ -21,7 +21,7 @@ def tags_mirflickr_to_json():
     """
     sc.wholeTextFiles(path_tags)\
         .flatMap(lambda (ruta, content): load_tags(ruta, content))\
-        .tagsRDD.toDF()\
+        .toDF()\
         .write.mode("overwrite")\
         .json(path_hdfs+"mirflickr/tags")
 
