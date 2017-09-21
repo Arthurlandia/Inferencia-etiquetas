@@ -15,7 +15,6 @@ path_hdfs = "hdfs://spark-master:9000/utad/"
 path_tags = "/home/arthurlandia/Downloads/mirflickr25k/meta/tags_raw/"
 common_tags = "/home/arthurlandia/Downloads/mirflickr25k/doc/common_tags.txt"
 
-
 def tags_mirflickr_to_json():
     """ Convierte todos los ficheros con las tags de los usuarios de mirflickr a un JSON
     """
