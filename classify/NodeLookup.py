@@ -8,7 +8,6 @@ class NodeLookup(object):
     """Converts integer node ID's to human readable labels."""
     dir = "/home/arthurlandia/Documents/imagenet"
 
-
     def __init__(self,
                  label_lookup_path=None,
                  uid_lookup_path=None):
