@@ -1,4 +1,4 @@
-# Inferencia-etiquetas
+# Clasificación de imágenes con TensorFlow y Spark. Inferencia entre categorías de Inception-V3 y MirFlickr
 UTAD - Proyecto final Programa Experto en Big Data: Clasificar imagénes de MirFlickr con TensorFlow (Inception-V3) y Spark. Realizar inferencia entre categorías de Inception-V3 y Mirflickr y viceversa.
 
 Video demostrativo: https://www.youtube.com/watch?v=00ZMuA_9gJM
