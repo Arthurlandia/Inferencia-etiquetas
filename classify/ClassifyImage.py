@@ -58,6 +58,7 @@ FLAGS = None
 # Numero de imagenes por batch
 image_batch_size = 1000
 
+
 # Numero de predicciones
 num_top_predictions = 5
 
