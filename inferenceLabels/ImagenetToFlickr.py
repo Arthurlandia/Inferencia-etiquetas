@@ -11,7 +11,6 @@ sc = SparkContext(conf=conf)
 spark = SparkSession(sc)
 path_hdfs = "hdfs://spark-master:9000/utad/"
 
-
 def entrenar(word):
     """ Se entrena un modelo para una etiqueta dada.
 
